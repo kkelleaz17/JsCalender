@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(to right,#7ebae2,#4d77aa);
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.Holder{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+}
+
+#Month{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.MonthHolder i{
+    color: rgb(205, 204, 204);
+    font-size: 30px;
+    cursor: pointer;
+}
+.MonthHolder i:hover{
+    color: white;
+}
+.MonthHolder{
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 40px;
+padding: 20px;
+}
+.SimpleDayHolder{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
+.SimpleDayHolder h2{
+    width: calc(100% / 7);
+    height: 100%;
+    text-align: center;
+}
+
+#DayHolder{
+   height: 450px;
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+#DayHolder div{
+    width: calc(100% / 7);
+    height: calc(100% / 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+#DayHolder div:hover{
+    background-color: rgb(216, 211, 204);
+}
+.grey{
+    color: rgb(111, 108, 108);
+}
